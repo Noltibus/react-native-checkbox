@@ -22,7 +22,6 @@ import androidx.appcompat.widget.AppCompatCheckBox;
   @Override
   public void setChecked(boolean checked) {
     if (mAllowChange) {
-      mAllowChange = false;
       super.setChecked(checked);
     }
   }
